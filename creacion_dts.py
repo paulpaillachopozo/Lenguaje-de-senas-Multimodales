@@ -50,16 +50,3 @@ for dir_ in os.listdir(DATA_DIR):
 f = open('Data.pickle', 'wb')
 pickle.dump({'data': data, 'labels': labels}, f)
 f.close()
-
-# print(len(data))
-# print('#'*50)
-# print(len(labels)) # 400 elements
-# print('*'*50)
-# print(dir_)
-# print('%'*50)
-# print(x_) # 21 point in hand x
-# print('@'*50)
-# print(y_) # 21 point in hand y 
-# print('&'*50)
-# print(data_aux)
-# print(data_aux.shape)
